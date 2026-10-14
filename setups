@@ -1,1 +1,46 @@
-{"updatedAt":0,"pairs":[],"status":{},"alerts":[]}
+{
+  "updatedAt": 1791942084382,
+  "pairs": [
+    "XAUUSD",
+    "BTCUSD",
+    "R_100"
+  ],
+  "status": {
+    "XAUUSD": {
+      "ok": true,
+      "bars": 300,
+      "source": "OKX PAXG-USDT (gold proxy)",
+      "at": 1791942084382
+    },
+    "BTCUSD": {
+      "ok": true,
+      "bars": 721,
+      "source": "Kraken XBT/USD",
+      "at": 1791942084382
+    },
+    "R_100": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv R_100",
+      "at": 1791942084382
+    }
+  },
+  "alerts": [
+    {
+      "id": "R_100-M15-BUY-1791939600000",
+      "pair": "R_100",
+      "side": "BUY",
+      "zone": "demand",
+      "status": "LIMIT PENDING",
+      "entry": 665.18,
+      "stop": 660.7762313235496,
+      "tp": 673.9875373529006,
+      "rr": 2,
+      "trend": "UP",
+      "obTime": 1791939600000,
+      "detectedAt": 1791942084382,
+      "title": "BUY R_100 · LIMIT PENDING",
+      "body": "limit 665.18 · SL 660.78 · TP 673.99 · RR 2 · demand OB, trend UP"
+    }
+  ]
+}
