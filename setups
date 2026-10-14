@@ -1,16 +1,17 @@
 {
-  "updatedAt": 1791943195220,
+  "updatedAt": 1791946280489,
   "pairs": [
     "XAUUSD",
-    "BTCUSD",
-    "R_100"
+    "R_75",
+    "stpRNG"
   ],
   "status": {
     "XAUUSD": {
       "ok": true,
       "bars": 300,
       "source": "OKX PAXG-USDT (gold proxy)",
-      "at": 1791943195220
+      "lastBarAt": 1791945900000,
+      "at": 1791946280489
     },
     "BTCUSD": {
       "ok": true,
@@ -23,9 +24,40 @@
       "bars": 300,
       "source": "Deriv R_100",
       "at": 1791943195220
+    },
+    "R_75": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv R_75",
+      "lastBarAt": 1791945900000,
+      "at": 1791946280489
+    },
+    "stpRNG": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv stpRNG",
+      "lastBarAt": 1791945900000,
+      "at": 1791946280489
     }
   },
   "alerts": [
+    {
+      "id": "QICT-stpRNG-1791928800000-SELL",
+      "pair": "stpRNG",
+      "side": "SELL",
+      "strategy": "QICT",
+      "zone": "FVG zone",
+      "status": "FILLED",
+      "entry": 7292.2,
+      "stop": 7302.2,
+      "tp": 7272.2,
+      "rr": 2,
+      "trend": "DOWN",
+      "obTime": 1791928800000,
+      "detectedAt": 1791946280489,
+      "title": "QICT-Analysis · SELL stpRNG · FILLED",
+      "body": "entry 7292.20 · SL 7302.20 · TP 7272.20 · RR 2 · FVG zone, trend DOWN"
+    },
     {
       "id": "R_100-M15-BUY-1791939600000",
       "pair": "R_100",
