@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791942084382,
+  "updatedAt": 1791943195220,
   "pairs": [
     "XAUUSD",
     "BTCUSD",
@@ -10,19 +10,19 @@
       "ok": true,
       "bars": 300,
       "source": "OKX PAXG-USDT (gold proxy)",
-      "at": 1791942084382
+      "at": 1791943195220
     },
     "BTCUSD": {
       "ok": true,
       "bars": 721,
       "source": "Kraken XBT/USD",
-      "at": 1791942084382
+      "at": 1791943195220
     },
     "R_100": {
       "ok": true,
       "bars": 300,
       "source": "Deriv R_100",
-      "at": 1791942084382
+      "at": 1791943195220
     }
   },
   "alerts": [
