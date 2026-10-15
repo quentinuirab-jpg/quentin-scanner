@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792074523287,
+  "updatedAt": 1792089381525,
   "pairs": [
     "XAUUSD",
     "R_75",
@@ -10,8 +10,8 @@
       "ok": true,
       "bars": 300,
       "source": "OKX PAXG-USDT (gold proxy)",
-      "lastBarAt": 1792073700000,
-      "at": 1792074523287,
+      "lastBarAt": 1792089000000,
+      "at": 1792089381525,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -23,21 +23,21 @@
       "ok": true,
       "bars": 300,
       "source": "Deriv R_75",
-      "lastBarAt": 1792073700000,
-      "at": 1792074523287,
+      "lastBarAt": 1792089000000,
+      "at": 1792089381525,
       "trend": {
-        "h1": "DOWN",
+        "h1": "MIXED",
         "h4": "DOWN",
-        "side": "SELL",
-        "text": "H1 DOWN and H4 DOWN: SELL entries only"
+        "side": null,
+        "text": "H1 MIXED and H4 DOWN do not agree: no potential entries are plotted"
       }
     },
     "stpRNG": {
       "ok": true,
       "bars": 300,
       "source": "Deriv stpRNG",
-      "lastBarAt": 1792073700000,
-      "at": 1792074523287,
+      "lastBarAt": 1792089000000,
+      "at": 1792089381525,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -46,5 +46,23 @@
       }
     }
   },
-  "alerts": []
+  "alerts": [
+    {
+      "id": "QICT-stpRNG-1792074600000-SELL",
+      "pair": "stpRNG",
+      "side": "SELL",
+      "strategy": "QICT",
+      "zone": "displacement zone",
+      "status": "FILLED",
+      "entry": 7270.6,
+      "stop": 7280.6,
+      "tp": 7250.6,
+      "rr": 2,
+      "trend": "DOWN",
+      "obTime": 1792074600000,
+      "detectedAt": 1792089381525,
+      "title": "QICT-Analysis · SELL stpRNG · FILLED",
+      "body": "entry 7270.60 · SL 7280.60 · TP 7250.60 · RR 2 · displacement zone, trend DOWN"
+    }
+  ]
 }
