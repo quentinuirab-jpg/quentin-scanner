@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792057502393,
+  "updatedAt": 1792074523287,
   "pairs": [
     "XAUUSD",
     "R_75",
@@ -10,8 +10,8 @@
       "ok": true,
       "bars": 300,
       "source": "OKX PAXG-USDT (gold proxy)",
-      "lastBarAt": 1792057500000,
-      "at": 1792057502393,
+      "lastBarAt": 1792073700000,
+      "at": 1792074523287,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -23,21 +23,21 @@
       "ok": true,
       "bars": 300,
       "source": "Deriv R_75",
-      "lastBarAt": 1792057500000,
-      "at": 1792057502393,
+      "lastBarAt": 1792073700000,
+      "at": 1792074523287,
       "trend": {
-        "h1": "MIXED",
+        "h1": "DOWN",
         "h4": "DOWN",
-        "side": null,
-        "text": "H1 MIXED and H4 DOWN do not agree: no potential entries are plotted"
+        "side": "SELL",
+        "text": "H1 DOWN and H4 DOWN: SELL entries only"
       }
     },
     "stpRNG": {
       "ok": true,
       "bars": 300,
       "source": "Deriv stpRNG",
-      "lastBarAt": 1792057500000,
-      "at": 1792057502393,
+      "lastBarAt": 1792073700000,
+      "at": 1792074523287,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
