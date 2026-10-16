@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792188337432,
+  "updatedAt": 1792188719779,
   "pairs": [
     "XAUUSD",
     "1HZ10V",
@@ -55,7 +55,7 @@
       "bars": 289,
       "source": "Deriv frxXAUUSD",
       "lastBarAt": 1792183500000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "UP",
@@ -68,12 +68,12 @@
       "bars": 300,
       "source": "Deriv R_75",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
-        "h1": "DOWN",
+        "h1": "MIXED",
         "h4": "DOWN",
-        "side": "SELL",
-        "text": "H1 DOWN and H4 DOWN: SELL entries only"
+        "side": null,
+        "text": "H1 MIXED and H4 DOWN do not agree: no potential entries are plotted"
       }
     },
     "stpRNG": {
@@ -81,7 +81,7 @@
       "bars": 300,
       "source": "Deriv stpRNG",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -94,7 +94,7 @@
       "bars": 300,
       "source": "Deriv 1HZ10V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -107,7 +107,7 @@
       "bars": 300,
       "source": "Deriv 1HZ15V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -120,7 +120,7 @@
       "bars": 300,
       "source": "Deriv 1HZ25V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -133,7 +133,7 @@
       "bars": 300,
       "source": "Deriv 1HZ30V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "MIXED",
@@ -146,7 +146,7 @@
       "bars": 300,
       "source": "Deriv 1HZ50V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "MIXED",
@@ -159,7 +159,7 @@
       "bars": 300,
       "source": "Deriv 1HZ75V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "MIXED",
@@ -172,7 +172,7 @@
       "bars": 300,
       "source": "Deriv 1HZ90V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -185,7 +185,7 @@
       "bars": 300,
       "source": "Deriv 1HZ100V",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -198,7 +198,7 @@
       "bars": 300,
       "source": "Deriv BOOM50",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "MIXED",
@@ -211,7 +211,7 @@
       "bars": 300,
       "source": "Deriv BOOM150N",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "UP",
@@ -224,7 +224,7 @@
       "bars": 300,
       "source": "Deriv BOOM300N",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "MIXED",
@@ -237,7 +237,7 @@
       "bars": 300,
       "source": "Deriv BOOM500",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -250,7 +250,7 @@
       "bars": 300,
       "source": "Deriv BOOM600",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "UP",
@@ -263,7 +263,7 @@
       "bars": 300,
       "source": "Deriv BOOM900",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -276,7 +276,7 @@
       "bars": 300,
       "source": "Deriv BOOM1000",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "DOWN",
@@ -289,7 +289,7 @@
       "bars": 300,
       "source": "Deriv CRASH50",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "DOWN",
@@ -302,7 +302,7 @@
       "bars": 300,
       "source": "Deriv CRASH150N",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -315,7 +315,7 @@
       "bars": 300,
       "source": "Deriv CRASH300N",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -328,12 +328,12 @@
       "bars": 300,
       "source": "Deriv CRASH500",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
-        "h1": "UP",
+        "h1": "MIXED",
         "h4": "UP",
-        "side": "BUY",
-        "text": "H1 UP and H4 UP: BUY entries only"
+        "side": null,
+        "text": "H1 MIXED and H4 UP do not agree: no potential entries are plotted"
       }
     },
     "CRASH600": {
@@ -341,7 +341,7 @@
       "bars": 300,
       "source": "Deriv CRASH600",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "MIXED",
@@ -354,7 +354,7 @@
       "bars": 300,
       "source": "Deriv CRASH900",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "DOWN",
@@ -367,7 +367,7 @@
       "bars": 300,
       "source": "Deriv CRASH1000",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "MIXED",
@@ -380,7 +380,7 @@
       "bars": 300,
       "source": "Deriv JD10",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "DOWN",
@@ -393,7 +393,7 @@
       "bars": 300,
       "source": "Deriv JD25",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -406,7 +406,7 @@
       "bars": 300,
       "source": "Deriv JD50",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "UP",
@@ -419,7 +419,7 @@
       "bars": 300,
       "source": "Deriv JD75",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -430,52 +430,53 @@
     "JD100": {
       "ok": false,
       "error": "All live sources failed for JD100: Deriv JD100: Deriv JD100: connection error",
-      "at": 1792188337432
+      "at": 1792188719779
     },
     "RB100": {
-      "ok": false,
-      "error": "All live sources failed for RB100: Deriv RB100: Deriv RB100: connection error",
-      "at": 1792188337432
-    },
-    "RB200": {
-      "ok": false,
-      "error": "All live sources failed for RB200: Deriv RB200: Deriv RB200: connection error",
-      "at": 1792188337432
-    },
-    "RDBULL": {
-      "ok": false,
-      "error": "All live sources failed for RDBULL: Deriv RDBULL: Deriv RDBULL: connection error",
-      "at": 1792188337432
-    },
-    "RDBEAR": {
-      "ok": false,
-      "error": "All live sources failed for RDBEAR: Deriv RDBEAR: Deriv RDBEAR: connection error",
-      "at": 1792188337432
-    },
-    "R_10": {
-      "ok": false,
-      "error": "All live sources failed for R_10: Deriv R_10: Deriv R_10: connection error",
-      "at": 1792188337432
-    },
-    "R_25": {
       "ok": true,
       "bars": 300,
-      "source": "Deriv R_25",
+      "source": "Deriv RB100",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
-        "h1": "MIXED",
-        "h4": "UP",
+        "h1": "DOWN",
+        "h4": "MIXED",
         "side": null,
-        "text": "H1 MIXED and H4 UP do not agree: no potential entries are plotted"
+        "text": "H1 DOWN and H4 MIXED do not agree: no potential entries are plotted"
       }
     },
-    "R_50": {
+    "RB200": {
       "ok": true,
       "bars": 300,
-      "source": "Deriv R_50",
+      "source": "Deriv RB200",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
+      "trend": {
+        "h1": "UP",
+        "h4": "UP",
+        "side": "BUY",
+        "text": "H1 UP and H4 UP: BUY entries only"
+      }
+    },
+    "RDBULL": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv RDBULL",
+      "lastBarAt": 1792188000000,
+      "at": 1792188719779,
+      "trend": {
+        "h1": "DOWN",
+        "h4": "DOWN",
+        "side": "SELL",
+        "text": "H1 DOWN and H4 DOWN: SELL entries only"
+      }
+    },
+    "RDBEAR": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv RDBEAR",
+      "lastBarAt": 1792188000000,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "DOWN",
@@ -483,12 +484,51 @@
         "text": "H1 MIXED and H4 DOWN do not agree: no potential entries are plotted"
       }
     },
+    "R_10": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv R_10",
+      "lastBarAt": 1792188000000,
+      "at": 1792188719779,
+      "trend": {
+        "h1": "MIXED",
+        "h4": "DOWN",
+        "side": null,
+        "text": "H1 MIXED and H4 DOWN do not agree: no potential entries are plotted"
+      }
+    },
+    "R_25": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv R_25",
+      "lastBarAt": 1792188000000,
+      "at": 1792188719779,
+      "trend": {
+        "h1": "DOWN",
+        "h4": "UP",
+        "side": null,
+        "text": "H1 DOWN and H4 UP do not agree: no potential entries are plotted"
+      }
+    },
+    "R_50": {
+      "ok": true,
+      "bars": 300,
+      "source": "Deriv R_50",
+      "lastBarAt": 1792188000000,
+      "at": 1792188719779,
+      "trend": {
+        "h1": "MIXED",
+        "h4": "MIXED",
+        "side": null,
+        "text": "H1 MIXED and H4 MIXED do not agree: no potential entries are plotted"
+      }
+    },
     "R_100": {
       "ok": true,
       "bars": 300,
       "source": "Deriv R_100",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -501,7 +541,7 @@
       "bars": 300,
       "source": "Deriv WLDAUD",
       "lastBarAt": 1792183500000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -514,7 +554,7 @@
       "bars": 300,
       "source": "Deriv WLDEUR",
       "lastBarAt": 1792183500000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -527,7 +567,7 @@
       "bars": 300,
       "source": "Deriv WLDGBP",
       "lastBarAt": 1792183500000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -540,7 +580,7 @@
       "bars": 300,
       "source": "Deriv WLDUSD",
       "lastBarAt": 1792183500000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "DOWN",
@@ -553,7 +593,7 @@
       "bars": 289,
       "source": "Deriv WLDXAU",
       "lastBarAt": 1792183500000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "MIXED",
@@ -566,7 +606,7 @@
       "bars": 300,
       "source": "Deriv stpRNG2",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -579,7 +619,7 @@
       "bars": 300,
       "source": "Deriv stpRNG3",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "MIXED",
         "h4": "DOWN",
@@ -592,7 +632,7 @@
       "bars": 300,
       "source": "Deriv stpRNG4",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "UP",
         "h4": "UP",
@@ -605,7 +645,7 @@
       "bars": 300,
       "source": "Deriv stpRNG5",
       "lastBarAt": 1792188000000,
-      "at": 1792188337432,
+      "at": 1792188719779,
       "trend": {
         "h1": "DOWN",
         "h4": "MIXED",
@@ -615,6 +655,23 @@
     }
   },
   "alerts": [
+    {
+      "id": "QICT-RDBULL-1792184400000-SELL",
+      "pair": "RDBULL",
+      "side": "SELL",
+      "strategy": "QICT",
+      "zone": "displacement zone",
+      "status": "FILLED",
+      "entry": 1004.4629,
+      "stop": 1014.4629,
+      "tp": 984.4629,
+      "rr": 2,
+      "trend": "DOWN",
+      "obTime": 1792184400000,
+      "detectedAt": 1792188719779,
+      "title": "QICT-Analysis · SELL RDBULL · FILLED",
+      "body": "entry 1004.46 · SL 1014.46 · TP 984.46 · RR 2 · displacement zone, trend DOWN"
+    },
     {
       "id": "QICT-WLDAUD-1792176300000-SELL",
       "pair": "WLDAUD",
