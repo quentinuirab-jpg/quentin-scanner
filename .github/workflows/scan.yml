@@ -1,36 +1,46 @@
 name: setup-scan
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/10 * * * *'   # every 10 minutes, 24/7
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: setup-scan
-  cancel-in-progress: false
+  cancel-in-progress: true
+
 jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Install chart renderer
         run: npm install --no-save --no-package-lock @napi-rs/canvas@1.0.11
+
       - name: Run scanner once
         env:
           SCAN_DATA_DIR: out
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          set -eu
           mkdir -p out
-          cp setups out/setups.json
+          cp setups out/setups.json || true
           node scan.cjs --once
-          cp out/setups.json setups
+          cp out/setups.json setups || true
+
       - name: Commit results
         run: |
           git config user.name "setup-scanner"
           git config user.email "setup-scanner@users.noreply.github.com"
-          git add setups
+          git add setups || true
           git diff --cached --quiet || (git commit -m "scan $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)
